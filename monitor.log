@@ -49,3 +49,10 @@
 {"timestamp":"2026-02-26 17:22:01","ramUsage":"67%","cpuUsage":"7%","diskUsage":"12%","uptime":"7 hours, 5 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
 {"timestamp":"2026-02-26 17:23:02","ramUsage":"73%","cpuUsage":"7%","diskUsage":"12%","uptime":"7 hours, 6 minutes","topProcess":"chrome","netTraffic":"0","status":"Healthy"}
 {"timestamp":"2026-02-26 17:24:01","ramUsage":"73%","cpuUsage":"13%","diskUsage":"12%","uptime":"7 hours, 7 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:25:01","ramUsage":"73%","cpuUsage":"10%","diskUsage":"12%","uptime":"7 hours, 8 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:26:01","ramUsage":"71%","cpuUsage":"7%","diskUsage":"12%","uptime":"7 hours, 9 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:27:02","ramUsage":"74%","cpuUsage":"18%","diskUsage":"12%","uptime":"7 hours, 10 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:28:01","ramUsage":"74%","cpuUsage":"3%","diskUsage":"12%","uptime":"7 hours, 11 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:29:01","ramUsage":"72%","cpuUsage":"17%","diskUsage":"12%","uptime":"7 hours, 12 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:30:02","ramUsage":"73%","cpuUsage":"6%","diskUsage":"12%","uptime":"7 hours, 13 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:31:01","ramUsage":"72%","cpuUsage":"4%","diskUsage":"12%","uptime":"7 hours, 14 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}

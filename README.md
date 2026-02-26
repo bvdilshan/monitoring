@@ -1,22 +1,26 @@
 # 🐧 Linux Resource Monitor
 
-A simple and efficient Bash script to monitor system health (CPU, RAM, and Disk) automatically using Cron jobs.
+<img width="1821" height="951" alt="Image" src="https://github.com/user-attachments/assets/16399f90-d5dd-4d89-b2fc-2b38a10f1c01" />
+
+A simple and efficient system monitoring tool (Bash + .NET + React) to track system health automatically.
 🚀 Features
 
-    Monitors: CPU, RAM, and Disk usage.
+    Live Monitoring: CPU, RAM, and Disk usage.
+
+    New Metrics: Real-time Uptime and Top Resource-Consuming Process.
+
+    Pro Logging: Saves data in JSON format for easy integration.
+
+    Full Stack: Includes a .NET API and a React Dashboard to see stats visually.
 
     Automation: Fully automated via Cron jobs.
-
-    Logging: Logs system status every minute.
-
-    Alerting: Flags high resource usage with a warning.
 
 🛠️ Installation
 Bash
 
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/bvdilshan/monitoring.git
+cd monitoring
 
 # Grant execution permission
 chmod +x monitoring.sh
@@ -26,15 +30,28 @@ chmod +x monitoring.sh
 
 🤖 Automation (Cron Job)
 
-To automate monitoring, add this to your crontab -e:
+To automate monitoring every minute, add this to your crontab -e:
 Bash
 
-* * * * * /home/vno/monitor/monitoring.sh >> /home/vno/monitor/monitor.log 2>&1
+* * * * * /bin/bash /home/vno/monitor/monitoring.sh
 
-📊 Sample Log
-Plaintext
+📊 Sample JSON Log
+JSON
 
-RAM Usage: 68%
-Disk Usage: 11%
-CPU Usage: 19%
-System Status: Healthy
+{
+  "timestamp": "2026-02-26 16:05:55",
+  "ramUsage": "74%",
+  "cpuUsage": "3%",
+  "diskUsage": "11%",
+  "uptime": "5 hours, 49 minutes",
+  "topProcess": "firefox",
+  "status": "Healthy"
+}
+
+💻 Tech Stack
+
+    Script: Bash
+
+    Backend: .NET 9 API
+
+    Frontend: React + Tailwind CSS v4
