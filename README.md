@@ -1,4 +1,4 @@
-🐧 Linux Resource Monitor
+# 🐧 Linux Resource Monitor
 
 A simple and efficient Bash script to monitor system health (CPU, RAM, and Disk) automatically using Cron jobs.
 🚀 Features
