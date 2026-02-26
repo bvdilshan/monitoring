@@ -1,130 +1,51 @@
---- System Report (Thu Feb 26 02:58:01 PM +0530 2026) ---
-RAM Usage: 68%
-Disk Usage: 11%
-CPU Usage: 19%
-System Status: Healthy
---- System Report (Thu Feb 26 02:59:01 PM +0530 2026) ---
-RAM Usage: 71%
-Disk Usage: 11%
-CPU Usage: 7%
-System Status: Healthy
---- System Report (Thu Feb 26 03:00:02 PM +0530 2026) ---
-RAM Usage: 70%
-Disk Usage: 11%
-CPU Usage: 4%
-System Status: Healthy
---- System Report (Thu Feb 26 03:01:01 PM +0530 2026) ---
-RAM Usage: 69%
-Disk Usage: 11%
-CPU Usage: 8%
-System Status: Healthy
---- System Report (Thu Feb 26 03:02:01 PM +0530 2026) ---
-RAM Usage: 69%
-Disk Usage: 11%
-CPU Usage: 6%
-System Status: Healthy
---- System Report (Thu Feb 26 03:03:01 PM +0530 2026) ---
-RAM Usage: 71%
-Disk Usage: 11%
-CPU Usage: 6%
-System Status: Healthy
---- System Report (Thu Feb 26 03:04:01 PM +0530 2026) ---
-RAM Usage: 70%
-Disk Usage: 11%
-CPU Usage: 1%
-System Status: Healthy
---- System Report (Thu Feb 26 03:05:01 PM +0530 2026) ---
-RAM Usage: 70%
-Disk Usage: 11%
-CPU Usage: 5%
-System Status: Healthy
---- System Report (Thu Feb 26 03:06:01 PM +0530 2026) ---
-RAM Usage: 72%
-Disk Usage: 11%
-CPU Usage: 1%
-System Status: Healthy
---- System Report (Thu Feb 26 03:07:02 PM +0530 2026) ---
-RAM Usage: 72%
-Disk Usage: 11%
-CPU Usage: 1%
-System Status: Healthy
---- System Report (Thu Feb 26 03:08:01 PM +0530 2026) ---
-RAM Usage: 72%
-Disk Usage: 11%
-CPU Usage: 1%
-System Status: Healthy
---- System Report (Thu Feb 26 03:09:01 PM +0530 2026) ---
-RAM Usage: 72%
-Disk Usage: 11%
-CPU Usage: 13%
-System Status: Healthy
---- System Report (Thu Feb 26 03:10:01 PM +0530 2026) ---
-RAM Usage: 73%
-Disk Usage: 11%
-CPU Usage: 3%
-System Status: Healthy
---- System Report (Thu Feb 26 03:34:33 PM +0530 2026) ---
-RAM Usage: 73%
-Disk Usage: 11%
-CPU Usage: 11%
-System Status: Healthy
---- System Report (Thu Feb 26 03:35:01 PM +0530 2026) ---
-RAM Usage: 73%
-Disk Usage: 11%
-CPU Usage: 2%
-System Status: Healthy
---- System Report (Thu Feb 26 03:36:01 PM +0530 2026) ---
-RAM Usage: 73%
-Disk Usage: 11%
-CPU Usage: 1%
-System Status: Healthy
---- System Report (Thu Feb 26 03:37:02 PM +0530 2026) ---
-RAM Usage: 72%
-Disk Usage: 11%
-CPU Usage: 4%
-System Status: Healthy
---- System Report (Thu Feb 26 03:38:01 PM +0530 2026) ---
-RAM Usage: 68%
-Disk Usage: 11%
-CPU Usage: 9%
-System Status: Healthy
---- System Report (Thu Feb 26 03:39:01 PM +0530 2026) ---
-RAM Usage: 74%
-Disk Usage: 11%
-CPU Usage: 10%
-System Status: Healthy
---- System Report (Thu Feb 26 03:40:01 PM +0530 2026) ---
-RAM Usage: 72%
-Disk Usage: 11%
-CPU Usage: 51%
-System Status: Healthy
---- System Report (Thu Feb 26 03:41:02 PM +0530 2026) ---
-RAM Usage: 77%
-Disk Usage: 11%
-CPU Usage: 6%
-System Status: Healthy
---- System Report (Thu Feb 26 03:42:01 PM +0530 2026) ---
-RAM Usage: 76%
-Disk Usage: 11%
-CPU Usage: 11%
-System Status: Healthy
---- System Report (Thu Feb 26 03:43:01 PM +0530 2026) ---
-RAM Usage: 75%
-Disk Usage: 11%
-CPU Usage: 12%
-System Status: Healthy
---- System Report (Thu Feb 26 03:44:01 PM +0530 2026) ---
-RAM Usage: 77%
-Disk Usage: 11%
-CPU Usage: 12%
-System Status: Healthy
---- System Report (Thu Feb 26 03:45:02 PM +0530 2026) ---
-RAM Usage: 77%
-Disk Usage: 11%
-CPU Usage: 5%
-System Status: Healthy
---- System Report (Thu Feb 26 03:46:01 PM +0530 2026) ---
-RAM Usage: 73%
-Disk Usage: 11%
-CPU Usage: 1%
-System Status: Healthy
+{"timestamp":"2026-02-26 16:16:28","ramUsage":"73%","cpuUsage":"2%","diskUsage":"11%","uptime":"6 hours, 0 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:17:01","ramUsage":"72%","cpuUsage":"3%","diskUsage":"11%","uptime":"6 hours, 0 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:18:02","ramUsage":"21%","cpuUsage":"0%","diskUsage":"11%","uptime":"6 hours, 1 minute","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:37:02","ramUsage":"56%","cpuUsage":"58%","diskUsage":"11%","uptime":"6 hours, 20 minutes","topProcess":"Microsoft.CodeA","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:38:02","ramUsage":"60%","cpuUsage":"21%","diskUsage":"12%","uptime":"6 hours, 21 minutes","topProcess":"code","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:39:01","ramUsage":"64%","cpuUsage":"8%","diskUsage":"12%","uptime":"6 hours, 22 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:40:01","ramUsage":"67%","cpuUsage":"34%","diskUsage":"12%","uptime":"6 hours, 23 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:41:02","ramUsage":"68%","cpuUsage":"5%","diskUsage":"12%","uptime":"6 hours, 24 minutes","topProcess":"code","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:42:02","ramUsage":"70%","cpuUsage":"2%","diskUsage":"12%","uptime":"6 hours, 25 minutes","topProcess":"code","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:43:01","ramUsage":"72%","cpuUsage":"11%","diskUsage":"12%","uptime":"6 hours, 26 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:44:01","ramUsage":"71%","cpuUsage":"10%","diskUsage":"12%","uptime":"6 hours, 27 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:45:01","ramUsage":"71%","cpuUsage":"11%","diskUsage":"12%","uptime":"6 hours, 28 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:46:02","ramUsage":"75%","cpuUsage":"5%","diskUsage":"12%","uptime":"6 hours, 29 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:47:01","ramUsage":"74%","cpuUsage":"19%","diskUsage":"12%","uptime":"6 hours, 30 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:48:01","ramUsage":"76%","cpuUsage":"13%","diskUsage":"12%","uptime":"6 hours, 31 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:49:02","ramUsage":"79%","cpuUsage":"17%","diskUsage":"12%","uptime":"6 hours, 32 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:50:01","ramUsage":"77%","cpuUsage":"36%","diskUsage":"12%","uptime":"6 hours, 33 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:51:01","ramUsage":"76%","cpuUsage":"11%","diskUsage":"12%","uptime":"6 hours, 34 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:52:02","ramUsage":"74%","cpuUsage":"20%","diskUsage":"12%","uptime":"6 hours, 35 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:53:01","ramUsage":"78%","cpuUsage":"27%","diskUsage":"12%","uptime":"6 hours, 36 minutes","topProcess":"chrome","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:54:01","ramUsage":"76%","cpuUsage":"10%","diskUsage":"12%","uptime":"6 hours, 37 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:55:02","ramUsage":"76%","cpuUsage":"12%","diskUsage":"12%","uptime":"6 hours, 38 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:56:01","ramUsage":"76%","cpuUsage":"8%","diskUsage":"12%","uptime":"6 hours, 39 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:57:01","ramUsage":"79%","cpuUsage":"15%","diskUsage":"12%","uptime":"6 hours, 40 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:58:02","ramUsage":"75%","cpuUsage":"6%","diskUsage":"12%","uptime":"6 hours, 41 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 16:59:01","ramUsage":"74%","cpuUsage":"17%","diskUsage":"12%","uptime":"6 hours, 42 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:00:01","ramUsage":"71%","cpuUsage":"5%","diskUsage":"12%","uptime":"6 hours, 43 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:01:02","ramUsage":"72%","cpuUsage":"7%","diskUsage":"12%","uptime":"6 hours, 44 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:02:01","ramUsage":"74%","cpuUsage":"10%","diskUsage":"12%","uptime":"6 hours, 45 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:03:01","ramUsage":"75%","cpuUsage":"15%","diskUsage":"12%","uptime":"6 hours, 46 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:04:02","ramUsage":"73%","cpuUsage":"5%","diskUsage":"12%","uptime":"6 hours, 47 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:05:01","ramUsage":"74%","cpuUsage":"10%","diskUsage":"12%","uptime":"6 hours, 48 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:06:01","ramUsage":"74%","cpuUsage":"18%","diskUsage":"12%","uptime":"6 hours, 49 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:07:01","ramUsage":"74%","cpuUsage":"3%","diskUsage":"12%","uptime":"6 hours, 50 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:08:02","ramUsage":"73%","cpuUsage":"6%","diskUsage":"12%","uptime":"6 hours, 51 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:09:01","ramUsage":"70%","cpuUsage":"21%","diskUsage":"12%","uptime":"6 hours, 52 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:10:01","ramUsage":"73%","cpuUsage":"15%","diskUsage":"12%","uptime":"6 hours, 53 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:11:02","ramUsage":"73%","cpuUsage":"12%","diskUsage":"12%","uptime":"6 hours, 54 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:12:01","ramUsage":"71%","cpuUsage":"14%","diskUsage":"12%","uptime":"6 hours, 55 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:13:01","ramUsage":"75%","cpuUsage":"25%","diskUsage":"12%","uptime":"6 hours, 56 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:14:02","ramUsage":"74%","cpuUsage":"18%","diskUsage":"12%","uptime":"6 hours, 57 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:15:01","ramUsage":"75%","cpuUsage":"42%","diskUsage":"12%","uptime":"6 hours, 58 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:16:01","ramUsage":"63%","cpuUsage":"10%","diskUsage":"12%","uptime":"6 hours, 59 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:17:02","ramUsage":"64%","cpuUsage":"1%","diskUsage":"12%","uptime":"7 hours, 0 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:18:01","ramUsage":"63%","cpuUsage":"1%","diskUsage":"12%","uptime":"7 hours, 1 minute","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:19:01","ramUsage":"64%","cpuUsage":"21%","diskUsage":"12%","uptime":"7 hours, 2 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:20:02","ramUsage":"67%","cpuUsage":"17%","diskUsage":"12%","uptime":"7 hours, 3 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:21:01","ramUsage":"67%","cpuUsage":"3%","diskUsage":"12%","uptime":"7 hours, 4 minutes","topProcess":"firefox","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:22:01","ramUsage":"67%","cpuUsage":"7%","diskUsage":"12%","uptime":"7 hours, 5 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:23:02","ramUsage":"73%","cpuUsage":"7%","diskUsage":"12%","uptime":"7 hours, 6 minutes","topProcess":"chrome","netTraffic":"0","status":"Healthy"}
+{"timestamp":"2026-02-26 17:24:01","ramUsage":"73%","cpuUsage":"13%","diskUsage":"12%","uptime":"7 hours, 7 minutes","topProcess":"ps","netTraffic":"0","status":"Healthy"}

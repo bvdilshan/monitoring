@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using MonitorAPI.Models;
+using System.Text.Json;
 
 namespace MonitorAPI.Controllers
 {
@@ -10,7 +11,6 @@ namespace MonitorAPI.Controllers
         [HttpGet("stats")]
         public IActionResult GetStats()
         {
-            
             string logPath = "/home/vno/monitor/monitor.log";
 
             try
@@ -18,20 +18,23 @@ namespace MonitorAPI.Controllers
                 if (!System.IO.File.Exists(logPath))
                     return NotFound("Log file not found.");
 
-                
-                var lines = System.IO.File.ReadAllLines(logPath).Reverse().Take(6).ToList();
-                
-                
-                var entry = new LogEntry
-                {
-                    Timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
-                    RamUsage = lines.FirstOrDefault(l => l.Contains("RAM"))?.Split(':')[1].Trim() ?? "0%",
-                    DiskUsage = lines.FirstOrDefault(l => l.Contains("Disk"))?.Split(':')[1].Trim() ?? "0%",
-                    CpuUsage = lines.FirstOrDefault(l => l.Contains("CPU"))?.Split(':')[1].Trim() ?? "0%",
-                    Status = lines.FirstOrDefault(l => l.Contains("Status"))?.Split(':')[1].Trim() ?? "Unknown"
+                var lastLine = System.IO.File.ReadLines(logPath).LastOrDefault();
+
+                if (string.IsNullOrEmpty(lastLine))
+                    return BadRequest("Log file is empty.");
+
+                var options = new JsonSerializerOptions 
+                { 
+                    PropertyNameCaseInsensitive = true 
                 };
+                
+                var entry = JsonSerializer.Deserialize<LogEntry>(lastLine, options);
 
                 return Ok(entry);
+            }
+            catch (JsonException ex)
+            {
+                return StatusCode(500, $"JSON Parsing Error: {ex.Message}. Make sure to clear your old log file.");
             }
             catch (Exception ex)
             {

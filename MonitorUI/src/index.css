@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-main: #0F1117;
+  --color-card-bg: #161922;
+  --color-accent-teal: #2DD4BF;
+  --color-accent-purple: #A855F7;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+}
+
+:root {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  @apply bg-bg-main text-slate-300 antialiased overflow-hidden;
+}
+
+
+.glass {
+  @apply bg-card-bg/50 backdrop-blur-md border border-slate-800/50;
+}
